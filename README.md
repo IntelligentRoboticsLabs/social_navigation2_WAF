@@ -1,6 +1,6 @@
 # social_navigation2_WAF
 # Work in Progress
-Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos): NAME
+Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos): <b>Defining Adaptive Proxemic Zones for Activity-aware Navigation</b>
 ## Titulo:
 ## Abstract:
 
