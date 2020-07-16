@@ -1,6 +1,6 @@
 # social_navigation2_WAF
 # Work in Progress
-Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos): <b>Defining Adaptive Proxemic Zones for Activity-aware Navigation</b>
+Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos): **Defining Adaptive Proxemic Zones for Activity-aware Navigation**
 ## Titulo:
 ## Abstract:
 
@@ -10,8 +10,8 @@ Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos): <b>De
 - Pasos para cambiar de forma sencilla y rápida algo del experimento.
 
 ## Related links
-- Link a social_navigation2
-- Link a social_navigation2_actions
-- Link a social_navigation_exp_tools
+- [Social_navigation2 (social_layer)](https://github.com/jginesclavero/social_navigation2)
+- [social_navigation2_actions](https://github.com/jginesclavero/social_navigation2_actions)
+- [social_navigation2_experiments](https://github.com/jginesclavero/social_navigation2_experiments)
 
 
