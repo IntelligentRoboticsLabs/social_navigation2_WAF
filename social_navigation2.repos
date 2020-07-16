@@ -1,0 +1,31 @@
+repositories:
+  navigation2:
+    type: git
+    url: https://github.com/ros-planning/navigation2.git
+    version: eloquent-dev
+  
+  ros2_planning_system:
+    type: git
+    url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system.git
+    version: master
+    
+  pedsim_ros:
+    type: git
+    url: https://github.com/jginesclavero/pedsim_ros.git
+    version: eloquent-dev
+
+  social_navigation2:
+    type: git
+    url: https://github.com/jginesclavero/social_navigation2.git
+    version: master
+    
+  social_navigation2_actions:
+    type: git
+    url: https://github.com/jginesclavero/social_navigation2_actions.git
+    version: master
+    
+  social_navigation2_experiments:
+    type: git
+    url: https://github.com/jginesclavero/social_navigation2_experiments.git
+    version: master
+
