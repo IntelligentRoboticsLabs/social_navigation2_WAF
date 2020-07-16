@@ -7,7 +7,7 @@ repositories:
   ros2_planning_system:
     type: git
     url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system.git
-    version: master
+    version: dc378139036831e8aa9964af4d0673ee3acb92db
     
   pedsim_ros:
     type: git
