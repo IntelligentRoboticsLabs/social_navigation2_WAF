@@ -23,14 +23,24 @@ Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos):
     rosdep install -y -r -q --from-paths src --ignore-src --rosdistro eloquent
     colcon build --symlink-install
   ```
-#### 4. Running the system.
+## Running the system.
 ```bash
-    ros2 launch social_navigation_bringup demo_launch.py
-  ```
-   - Gazebo simulator and the RVIz2 window is open. It shows the proxemics of the agents and our robot. We can navigate using the RVIz tool Navigation2 Goal. Agent_1 is performing an escorting action and agent_2 is performing a following action.
+  ros2 launch social_navigation_bringup demo_launch.py
+```
+Gazebo simulator and the RVIz2 window is open. It shows the proxemics of the agents and our robot. We can navigate using the RVIz tool Navigation2 Goal. Agent_1 is performing an escorting action and agent_2 is performing a following action.
 
-#### 5. Testing different configurations.
-- File `social_navigation2/social_navigation_bringup/params/nav2_params.yaml` contains the navigation2 configuration. We can play with `var_h`,`var_s` and `var_r` action params and see how the proxemics change. It is neccesary restart the system launched in the previous step to see the results.
+## Testing different configurations.
+File `social_navigation2/social_navigation_bringup/params/nav2_params.yaml` contains the navigation2 configuration. We can play with `var_h`,`var_s` and `var_r` action params and see how the proxemics change. It is neccesary restart the system launched in the previous step to see the results.
+
+## Reproducing our experiments.
+### Approaching
+```bash
+  ros2 launch social_navigation_exp_bringup approach_exp_bringup.py.py
+```
+### Escorting
+```bash
+  ros2 launch social_navigation_exp_bringup escort_exp_bringup.py
+```
 
 ## Related links
 - [Social_navigation2 (social_layer)](https://github.com/jginesclavero/social_navigation2)
