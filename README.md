@@ -5,6 +5,24 @@ Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos):
 ## Abstract
  Many of the tasks that a service robot can perform at home involve navigation skills. In a real world scenario, the navigation system should consider individuals beyond just objects, theses days it is necessary to offer particular and dynamic representation in the scenario in order to enhance the HRI experience. In this paper, we use the proxemic theory to do this representation. The proxemic zones are not static. The culture or the context influences them and, if we have this influence into account, we can increase humans' comfort. Moreover, there are collaborative tasks in which these zones take different shapes to allow the task's best performance. This research develops a layer, the social layer, to represent and distribute the proxemics zones' information in a standard way, through a cost map and using it to perform a social navigate task. We have evaluated these components in a simulated scenario, performing different collaborative and human-robot interaction tasks and reducing the personal area invasion in a 32%. The material developed during this research can be found in a public repository, as well as instructions to facilitate the reproducibility of the results. 
 
+## Citation
+
+If you use the social_layer, you build on top of our work, or ideas from it please cite this work in your papers!
+
+ - J. Clavero, F. Martin, FJ. Rodriguez, JM. Hernandez, V.Matellan [**Defining Adaptive Proxemic Zones for Activity-aware Navigation**](https://arxiv.org/abs/2009.04770). Workshop of Physical Agents (WAF), 2020.
+ 
+ ```bibtex
+ @inproceedings{clavero2020defining,
+  title={Defining Adaptive Proxemic Zones for Activity-Aware Navigation},
+  author={Clavero, Jonatan Gin{\'e}s and Rico, Francisco Mart{\'\i}n and Rodr{\'\i}guez-Lera, Francisco J and Hern{\'a}ndez, Jos{\'e} Miguel Guerrero and Olivera,   Vicente Matell{\'a}n},
+  booktitle={Workshop of Physical Agents},
+  pages={3-17},
+  year={2020},
+  organization={Springer, Cham}
+}
+
+```
+
 ## How to reproduce our research? 
 ### Option A) With an all-in-one LXD container.
 - [Download the container image](https://urjc-my.sharepoint.com/:u:/g/personal/jonatan_gines_urjc_es/EcEFbZLVFIFPo2GkVY8yjHcB2UnvKGCOWFT0r5vdj_QHzQ?e=XnFOnC)
