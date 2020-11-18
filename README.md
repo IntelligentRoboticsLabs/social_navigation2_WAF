@@ -6,12 +6,12 @@ Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos):
  Many of the tasks that a service robot can perform at home involve navigation skills. In a real world scenario, the navigation system should consider individuals beyond just objects, theses days it is necessary to offer particular and dynamic representation in the scenario in order to enhance the HRI experience. In this paper, we use the proxemic theory to do this representation. The proxemic zones are not static. The culture or the context influences them and, if we have this influence into account, we can increase humans' comfort. Moreover, there are collaborative tasks in which these zones take different shapes to allow the task's best performance. This research develops a layer, the social layer, to represent and distribute the proxemics zones' information in a standard way, through a cost map and using it to perform a social navigate task. We have evaluated these components in a simulated scenario, performing different collaborative and human-robot interaction tasks and reducing the personal area invasion in a 32%. The material developed during this research can be found in a public repository, as well as instructions to facilitate the reproducibility of the results. 
 
 ## How to reproduce our research? 
-### With an all-in-one LXD container.
+### Option A) With an all-in-one LXD container.
 - [Download the container image](https://urjc-my.sharepoint.com/:u:/g/personal/jonatan_gines_urjc_es/EbC5H1MRlLRHp0eV8n5wFdsBhNAkfsAhqvppP4dUdMe5ew?e=QBUvin)
 - Import the image and launch the container, [link1](https://serverfault.com/a/796586), [link2 (Spanish)](https://superadmin.es/blog/devops/backup-contenedores-lxd/)
 - [Create and set a LXD GUI Profile](https://blog.simos.info/how-to-easily-run-graphics-accelerated-gui-apps-in-lxd-containers-on-your-ubuntu-desktop/)
 
-### Compiling the software.
+### Option B) Compiling the software.
 #### 1. Install and configure ROS2 eloquent 
 #### 2. Importing repos:
   ```bash
