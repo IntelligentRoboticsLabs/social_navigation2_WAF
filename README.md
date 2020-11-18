@@ -72,6 +72,8 @@ Gazebo simulator is running in background and RVIz2 is open. It shows an agent o
 
 ### Escorting
 A robot has to walk side-to-side with a human without disturbing and respecting his/her proxemic zone.
+[![](http://img.youtube.com/vi/zPAI0qPcf_Y/0.jpg)](http://www.youtube.com/watch?v=zPAI0qPcf_Y "")
+
 #### Escorting using proxemic zones of concentric circles
 ```bash
   ros2 launch social_navigation_exp_bringup escort_lu_exp_bringup.py
