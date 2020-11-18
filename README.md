@@ -2,7 +2,7 @@
 # Work in Progress
 Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos):
 ## Defining Adaptive Proxemic Zones for Activity-aware Navigation:
-## Abstract:
+## Abstract
  Many of the tasks that a service robot can perform at home involve navigation skills. In a real world scenario, the navigation system should consider individuals beyond just objects, theses days it is necessary to offer particular and dynamic representation in the scenario in order to enhance the HRI experience. In this paper, we use the proxemic theory to do this representation. The proxemic zones are not static. The culture or the context influences them and, if we have this influence into account, we can increase humans' comfort. Moreover, there are collaborative tasks in which these zones take different shapes to allow the task's best performance. This research develops a layer, the social layer, to represent and distribute the proxemics zones' information in a standard way, through a cost map and using it to perform a social navigate task. We have evaluated these components in a simulated scenario, performing different collaborative and human-robot interaction tasks and reducing the personal area invasion in a 32%. The material developed during this research can be found in a public repository, as well as instructions to facilitate the reproducibility of the results. 
 
 ## How to reproduce our research? 
