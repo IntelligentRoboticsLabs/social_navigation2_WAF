@@ -10,7 +10,10 @@ Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos):
 - [Download the container image](https://urjc-my.sharepoint.com/:u:/g/personal/jonatan_gines_urjc_es/EbC5H1MRlLRHp0eV8n5wFdsBhNAkfsAhqvppP4dUdMe5ew?e=QBUvin)
 - Import the image and launch the container, [link1](https://serverfault.com/a/796586), [link2 (Spanish)](https://superadmin.es/blog/devops/backup-contenedores-lxd/)
 - [Create and set a LXD GUI Profile](https://blog.simos.info/how-to-easily-run-graphics-accelerated-gui-apps-in-lxd-containers-on-your-ubuntu-desktop/)
-
+- Get a shell in the container
+```bash
+   lxc start [container-name] ; lxc exec [container-name] -- su --login ubuntu
+```
 ### Option B) Compiling the software.
 #### 1. Install and configure ROS2 eloquent 
 #### 2. Importing repos:
