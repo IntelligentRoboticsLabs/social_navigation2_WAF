@@ -29,10 +29,14 @@ Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos):
     colcon build --symlink-install
   ```
 ## Running the system.
+
 ```bash
   ros2 launch social_navigation_bringup demo_launch.py
 ```
 Gazebo simulator and the RVIz2 window is open. It shows the proxemics of the agents and our robot. We can navigate using the RVIz tool Navigation2 Goal. Agent_1 is performing an escorting action and agent_2 is performing a following action.
+<p align="center">
+ <img src="https://github.com/IntelligentRoboticsLabs/social_navigation2_WAF/blob/master/doc/demo.png" width="90%"/>
+</p>
 
 ## Testing different configurations.
 File `social_navigation2/social_navigation_bringup/params/nav2_params.yaml` contains the navigation2 configuration. We can play with `var_h`,`var_s` and `var_r` action params and see how the proxemics change. It is neccesary restart the system launched in the previous step to see the results.
@@ -45,6 +49,9 @@ A robot has to get close to a human to interact.
   ros2 launch social_navigation_exp_bringup approach_exp_bringup.py.py
 ```
 Gazebo simulator is running in background and RVIz2 is open. It shows an agent on the right side of the scene and the robot has to approach her/him.
+<p align="center">
+ <img src="https://github.com/IntelligentRoboticsLabs/social_navigation2_WAF/blob/master/doc/approach.png" width="90%"/>
+</p>
 
 ### Escorting
 A robot has to walk side-to-side with a human without disturbing and respecting his/her proxemic zone.
@@ -53,11 +60,15 @@ A robot has to walk side-to-side with a human without disturbing and respecting 
   ros2 launch social_navigation_exp_bringup escort_lu_exp_bringup.py
 ```
 Gazebo simulator is running in background and RVIz2 is open. It shows an agent close to the robot and the agent's proxemic zone. The agent start to walk and the robot tries to walk side-to-side. Since the robot cannot walk on the right side of the person, it is placed behind them.
+
 #### Escorting using our proposal
 ```bash
   ros2 launch social_navigation_exp_bringup escort_exp_bringup.py
 ```
 Gazebo simulator is running in background and RVIz2 is open. It shows an agent close to the robot and the agent's proxemic zone. The proxemic zone include 2 cooperation zones. The agent start to walk and the robot tries to walk side-to-side. The robot walks on the agent's right while it can.
+<p align="center">
+ <img src="https://github.com/IntelligentRoboticsLabs/social_navigation2_WAF/blob/master/doc/escort.png" width="90%"/>
+</p>
 
 ## Related links
 - [Social_navigation2 (social_layer)](https://github.com/jginesclavero/social_navigation2)
