@@ -20,7 +20,7 @@ Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos):
   ```bash
     cd [ros2_ws]/src
     wget https://raw.githubusercontent.com/IntelligentRoboticsLabs/social_navigation2_WAF/master/social_navigation2.repos
-    vcs import < social_navigation2.repos
+    vcs import --recursive < social_navigation2.repos
   ```
 #### 3. Check the dependencies and compile.
   ```bash
