@@ -10,7 +10,7 @@ Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos):
 - [Download the container image](https://urjc-my.sharepoint.com/:u:/g/personal/jonatan_gines_urjc_es/EbC5H1MRlLRHp0eV8n5wFdsBhNAkfsAhqvppP4dUdMe5ew?e=QBUvin)
 - Import the image and launch the container, [link1](https://serverfault.com/a/796586), [link2 (Spanish)](https://superadmin.es/blog/devops/backup-contenedores-lxd/)
 - [Create and set a LXD GUI Profile](https://blog.simos.info/how-to-easily-run-graphics-accelerated-gui-apps-in-lxd-containers-on-your-ubuntu-desktop/)
-- Get a shell in the container
+- Get a container shell
 ```bash
    lxc start [container-name] ; lxc exec [container-name] -- su --login ubuntu
 ```
@@ -38,6 +38,7 @@ Gazebo simulator and the RVIz2 window is open. It shows the proxemics of the age
 File `social_navigation2/social_navigation_bringup/params/nav2_params.yaml` contains the navigation2 configuration. We can play with `var_h`,`var_s` and `var_r` action params and see how the proxemics change. It is neccesary restart the system launched in the previous step to see the results.
 
 ## Reproducing our experiments.
+**The experiments are independent of the previous demo so, please, stop the demo if it is running.**
 ### Approaching
 A robot has to get close to a human to interact.
 ```bash
