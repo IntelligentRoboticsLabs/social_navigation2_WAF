@@ -34,17 +34,26 @@ File `social_navigation2/social_navigation_bringup/params/nav2_params.yaml` cont
 
 ## Reproducing our experiments.
 ### Approaching
+A robot has to get close to a human to interact.
 ```bash
   ros2 launch social_navigation_exp_bringup approach_exp_bringup.py.py
 ```
+Gazebo simulator is running in background and RVIz2 is open. It shows an agent on the right side of the scene and the robot has to approach her/him.
+
 ### Escorting
+A robot has to walk side-to-side with a human without disturbing and respecting his/her proxemic zone.
+#### Escorting using proxemic zones of concentric circles
+```bash
+  ros2 launch social_navigation_exp_bringup escort_lu_exp_bringup.py
+```
+Gazebo simulator is running in background and RVIz2 is open. It shows an agent close to the robot and the agent's proxemic zone. The agent start to walk and the robot tries to walk side-to-side. Since the robot cannot walk on the right side of the person, it is placed behind them.
+#### Escorting using our proposal
 ```bash
   ros2 launch social_navigation_exp_bringup escort_exp_bringup.py
 ```
+Gazebo simulator is running in background and RVIz2 is open. It shows an agent close to the robot and the agent's proxemic zone. The proxemic zone include 2 cooperation zones. The agent start to walk and the robot tries to walk side-to-side. The robot walks on the agent's right while it can.
 
 ## Related links
 - [Social_navigation2 (social_layer)](https://github.com/jginesclavero/social_navigation2)
 - [social_navigation2_actions](https://github.com/jginesclavero/social_navigation2_actions)
 - [social_navigation2_experiments](https://github.com/jginesclavero/social_navigation2_experiments)
-
-
