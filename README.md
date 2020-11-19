@@ -1,4 +1,4 @@
-# Defining Adaptive Proxemic Zones for Activity-aware Navigation (WAF2020) (Work in progress)
+# Defining Adaptive Proxemic Zones for Activity-aware Navigation (Work in progress)
 Repository of the paper published in WAF2020 (Wokshop de Agentes Fisicos).
 
 ## Abstract
